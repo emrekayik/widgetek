@@ -2,8 +2,8 @@ export function Hero({ className }: { className?: string }) {
   return (
     <>
       <div className={className}>
-        <div className="mx-auto max-w-5xl px-4 pb-24 pt-24 lg:pt-32 xl:px-0">
-          <h1 className="text-5xl font-semibold text-white md:text-6xl">
+        <div className="mx-auto max-w-4xl px-4 pb-24 pt-24 lg:pt-32 xl:px-0">
+          <h1 className="text-5xl font-semibold text-primary md:text-6xl">
             <span className="text-[#ff0]">widgetek:</span> Free widgets for your
             notion
           </h1>
